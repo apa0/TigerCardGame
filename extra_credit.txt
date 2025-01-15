@@ -1,0 +1,14 @@
+ANGIE DIAZ CPSC 1020 PROJECT 3: TIGERCARD GAME 
+
+If you attempted to solve any of the extra credit challenges, please add this txt file to your submission.
+
+Briefly comment on which challenge(s) you attempted to solve and how you solved them. 1-2 sentences per challenge is sufficient. We just need to know what to look out for.
+
+
+1. The first challenge I attempted was to ask the user how many cards each player should draw to determine the rounds played.
+I made a do-while loop that asked the user to enter how many cards they wanted and stored into a variable, which continued while the variable was less than 1 or greater than 15. 
+Then I used that variable when creating my player object and as the condition in my for loop for the rounds. 
+
+
+2. The second challenge I attempted was to ask the player if they would want to play again and then print a summary of all the games. 
+I decided to create a struct called totalGames that represented each game and each round's points with two vectors inside, I also used a printFunction to print the entire summary of all games. 
